@@ -1,6 +1,6 @@
 # Discord-SaveRoles-Bot
 Требуется Python последней версии, mysql/mariadb (локально или на удаленном сервере)
-## Установка
+# Вариант 1. Установка локально
 ```
 git clone https://github.com/NigamanRPG/Discord-SaveRoles-Bot.git
 cd Discord-SaveRoles-Bot
@@ -21,3 +21,13 @@ pip install -r requirements.txt
 ```python bot.py``` или ```python3 bot.py```
 
 После запуска, выполните команду для включения сохранения ролей на необходимой гильдии ```$save_role enable``` _(требуются права администратора)_. Для отключения функции воспользуйтесь командой ```$save_role disable```
+
+# Вариант 2. Использование Docker
+Требуется установить актуальную версию docker, mysql/mariadb (локально или на удаленном сервере).
+Измените данные в файле config/example.json (см. раздел "Настройка").
+
+Соберите и запустите контейнер.
+```
+docker build -t saveroles-bot .
+docker run saveroles-bot
+```
