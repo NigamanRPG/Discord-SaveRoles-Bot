@@ -1,0 +1,8 @@
+{
+    "TOKEN": "Your Discord bot token",
+    "HOSTNAME": "MySQL Host (IP or Domain)",
+    "PASSWD": "Password for mysql database",
+    "USERNAME": "Username for database",
+    "DB": "Database name"
+
+}
