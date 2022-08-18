@@ -31,3 +31,6 @@ pip install -r requirements.txt
 docker build -t saveroles-bot .
 docker run saveroles-bot
 ```
+# Демонстрация
+[demo.webm](https://user-images.githubusercontent.com/52179357/185404837-788d4a5c-d12f-44a1-b203-c800e2533ab2.webm)
+
