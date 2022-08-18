@@ -1,2 +1,2 @@
 discord.py
-pymysql
+pymysql==0.9.3
